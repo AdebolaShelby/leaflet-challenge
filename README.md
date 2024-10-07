@@ -3,6 +3,7 @@
 # Earthquake Map Visualization
 * This project visualizes real-time earthquake data from the USGS Earthquake API using the Leaflet.js library. 
 * Earthquake markers are plotted on a map based on their location, with marker sizes reflecting earthquake magnitudes and marker colors representing earthquake depths.
+![Earthquake Map](<Screenshot 2024-10-07 141722.png>)
 
 # Project Structure
 * index.html: The main HTML file containing the map container and references to external resources.
