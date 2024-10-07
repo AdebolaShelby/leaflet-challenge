@@ -18,7 +18,7 @@ function getColor(depth) {
 
 // Function to define radius based on earthquake magnitude
 function getRadius(magnitude) {
-  return magnitude * 4; // Adjust size as per preference
+  return magnitude * 4; 
 }
 
 // Fetch the earthquake data from the USGS GeoJSON feed
@@ -46,7 +46,7 @@ function createMap(data) {
     }
   }).addTo(myMap);
 
-  // Add a legend to explain the depth color coding
+  // Add a legend to the map
   var legend = L.control({ position: 'bottomright' });
 
   legend.onAdd = function () {
